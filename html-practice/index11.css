@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    background-color: blue;
+    width: 200px;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+}
