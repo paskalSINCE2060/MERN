@@ -1,0 +1,30 @@
+.main-container{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(161, 86, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: pk;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+@keyframes pk {
+    from{
+        background-color: teal;
+        transform: rotate3d(0)px;
+    }
+    to{
+        background-color: maroon;
+        transform: rotate(120deg);
+        border-radius: 100%;
+    }
+}
+p{
+    color: rgb(212, 78, 78);
+}
+p:hover{
+    transform:scale(2) translateX(20px);
+}

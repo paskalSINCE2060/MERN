@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+         input{
+            margin-left: 50px;
+        }
+        #email{
+            margin-left: 83px;
+        }
+
+        #password{
+            margin-left: 59px;
+        }
+        .checkbox1{
+            margin-left:75px;
+        }
+        .checkbox2{
+            margin-left:56px;
+        }
+        .checkbox3{
+            margin-left:23px;
+        }
+        .checkbox4{
+            margin-left:58px;
+        }
+        #One{
+            margin-left:55px;
+        }
+        #Two{
+            margin-left:83px;
+        }
+        #Three{
+            margin-left:69px;
+        }
+        #Four{
+            margin-left:67px;
+        }
+        #Five{
+            margin-left:33px;
+        }
+        #image{
+            margin-left: 10px;
+            border-radius: 0px;
+        }
+        .button {
+            border: 1px solid black;
+            padding: 5px;
+            border-radius: 25px;
+            padding-left:10px;
+            padding-right:10px;
+        }
+        #location{
+            margin-left:10px;
+        }
+        #submit{
+            border: 1px solid black;
+            padding: 5px;
+            border-radius: 25px;
+            padding-left:15px;
+            padding-right:15px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Feedback form</h1>
+
+    <ul>
+
+        <li>
+            <label for="FastName">First Name:</label>
+            <input type="text" placeholder="Enter First Name"><br><br>
+        </li>
+
+        <li>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Enter Email Address" id="email"><br><br>
+        </li>
+
+        <li>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required id="password" placeholder="Enter Password"><br><br>
+        </li>
+
+        <li>
+        <label>Please check all the emotions that apply to you:</label>
+        </li>
+
+    <ul style="list-style-type: disc;">
+
+        <li>
+        <label for="acrylic">Angry</label><input type="checkbox" class="checkbox4">
+        </li>
+
+        <li>
+        <label for="acrylic">Sad</label><input type="checkbox" class="checkbox1">
+        </li>
+
+        <li>
+        <label for="acrylic">Happy</label><input type="checkbox" class="checkbox2">
+        </li>
+
+        <li>
+            <label for="acrylic">Ambivalent</label><input type="checkbox" class="checkbox3">
+        </li>
+
+    </ul>
+
+    </ul>
+
+    <ul>
+
+        <li>How satisfied were you with our services?</li>
+
+        <ul style="list-style-type: disc;">
+
+        <li>Very satisfied<input type="radio" id="One" name="service" value="Very satisfied"> </li>
+        <li> Satisfied <input type="radio" id="Two" name="service" value="Satisfied"></li>
+        <li>  Didn't care <input type="radio" id="Three" name="service" value="Didn't care"></li>
+        <li>Dissatisfied<input type="radio" id="Four" name="service" value="Dissatisfied"> </li>
+        <li> Very dissatisfied <input type="radio" id="Five" name="service" value="Very dissatisfied"></li>
+
+        </ul>
+
+    </ul>
+
+    <ul>
+        <li>Further comments:<textarea name="comment" rows="3" cols="30"></textarea></li>
+    </ul>
+
+    <ul>
+
+        <li>
+            <label for="BioPhoto">Bio photo:</label>
+            <input type="text">
+            <button class="button">Choose...</button>
+        </li>
+
+    </ul>
+
+    <ul>
+        <li>
+            Location visited:
+            <input type="number" id="location" name="location" value="locaiton" placeholder="Select location"><br><br>
+        </li>
+    </ul>
+
+<li>
+    <input type="submit" id="submit"> 
+
+</li>
+
+</body>
+</html>

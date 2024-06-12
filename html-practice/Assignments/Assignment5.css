@@ -1,0 +1,268 @@
+.border{
+    width: 420px;
+    height: 97vh;
+    background-color: #f9f9ff;
+    border-radius: 35px;
+    border-style: solid;
+    border-width: 10px;
+  }
+.container {
+    width: 400px;
+    height:750px;
+    border-radius: 70px;
+    position: relative;
+    background-color: #f9f9ff;
+    margin-top: -7px;
+  }
+
+  .header{
+    display: flex;
+    flex-direction: row;
+    margin-top:20px ;
+    margin-bottom: 35px;
+  }
+  .time{
+    font-size: larger;
+    display: flex;
+    font-size: 25px;
+    margin-left: 25px;
+  }
+  .box{
+    position: absolute;
+    width:120px;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    position: absolute;
+    background-color:black;
+    margin-left: 70px;
+}
+.tower{
+    display: flex;
+    margin-left: 225px;
+    height: 25px;
+}
+.wifi{
+    display: flex;
+    margin-left: 7px;
+    height: 35px;
+    margin-top: -6px;
+}
+.battery{
+    display: flex;
+    margin-left: 9px;
+    margin-top: -6px;
+}
+  .bottom{
+    position: absolute;
+         width:80px;
+      /* opacity: 0.7; */
+      height: 18px;
+      border-radius: 20px;
+      display: flex;
+      gap:3px;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      bottom: 450px;
+      left: 165px;
+      background-color:lightgrey;
+  }
+  .heart{
+    position: absolute;
+    right: 0;
+    margin-top: -20px;
+    font-weight: bold;
+  }
+  .up-arrow{
+    position: absolute;
+    left: 340px;
+    margin-top: -20px;
+  }
+  .left-arrow{
+    position: absolute;
+    left: 10px;
+    margin-top: -20px;
+
+  }
+  .dot {
+    cursor: pointer;
+    height: 8px;
+    width: 8px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot-black{
+    cursor: pointer;
+    height: 8px;
+    width: 8px;
+    margin: 0 2px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .container-footer{
+    width: 420px;
+    height: 75vh;
+    position: absolute;
+    border-radius: 50px;
+    background-color: white;
+    bottom: -198px;
+    margin-bottom: -10px;
+
+  }
+  .content-footer{
+    margin-left: 15px;
+   
+  }
+  h3{
+    margin-top: 30px;
+  }
+  h1{
+    margin-top: -20px;
+  }
+  .flex{
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
+  }
+  .color{
+    color: grey;
+  }
+  .copper{
+    color: black;
+  }
+  .colors{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .one{
+    border-left: 15px solid rgb(0, 0, 0);
+    border-bottom: 15px solid rgb(0, 0, 0);
+    border-right: 15px solid #6c7276;
+    border-top: 15px solid #6c7276;
+    display: inline-block;
+    border-radius: 100%;
+    rotate: 45deg;
+  }
+  .ovals{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    border: 2px solid #283efe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .oval{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .two{
+  border-left: 15px solid #2a345a;
+  border-bottom: 15px solid #2a345a;
+  border-right: 15px solid #c28051;
+  border-top: 15px solid #c28051;
+  display: inline-block;
+  border-radius: 100%;
+  rotate: 45deg;
+  }
+  
+  .three{
+  border-left: 15px solid #2f345b;
+  border-bottom: 15px solid #2f345b;
+  border-right: 15px solid #d00073;
+  border-top: 15px solid #d00073;
+  display: inline-block;
+  border-radius: 100%;
+  rotate: 45deg;
+  }
+  
+  .four{
+  border-left: 15px solid #c8c8cf;
+  border-bottom: 15px solid #c8c8cf;
+  border-right: 15px solid #c28352;
+  border-top: 15px solid #c28352;
+  display: inline-block;
+  border-radius: 100%;
+  rotate: 45deg;
+  }
+  .about{
+font-size: large;
+  }
+
+  .footer-one{
+    display: flex;
+    flex-direction: row;
+    margin-left: -20px;
+  }
+  .list{
+    display: flex;
+    gap: 50px;
+  }
+  .box-2{
+    position: absolute;
+    width:320px;
+    height: 50px;
+    border-radius: 15px;
+    display: flex;
+    position: absolute;
+    background-color: blue;
+    margin-left: 0px;
+}
+  .wallet{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 110px;
+    margin-top: 13px;
+}
+.buy{
+  color: white;
+  margin-left: 10px;
+  margin-top: 14px;
+  
+}
+.last-footer{
+  display: flex;
+  flex-direction: row;
+}
+.cart{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 340px;
+  margin-top: 0px;
+}
+.cart-part{
+  position: absolute;
+  width:45px;
+  height: 50px;
+  border-radius: 12px;
+  display: flex;
+  position: absolute;
+  background-color: lightgrey;
+  margin-left: 0px;
+  justify-content: center;
+}
+.box-3{
+  position: absolute;
+  width:150px;
+  height:5px;
+  border-radius: 20px;
+  display: flex;
+  position: absolute;
+  background-color:black;
+  margin-left: 90px;
+  margin-top: 60px;
+}
+.line{
+  display: flex;
+  
+}
